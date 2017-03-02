@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+        <ImageView
+            android:layout_width="@dimen/logo_width"
+            android:layout_height="@dimen/logo_height"
+            android:src="@drawable/logo"
+            android:id="@+id/imageView"
+            android:layout_above="@+id/emailTxt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="48dp" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:inputType="textEmailAddress"
+            android:background="@color/white"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:hint="Email Address"
+            android:id="@+id/emailTxt"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:background="@color/white"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:hint="Password"
+            android:layout_below="@id/emailTxt"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/passwordTxt" />
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:id="@+id/login_but"
+            android:src="@drawable/loginbut"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/passwordTxt"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/signUp"
+            android:textColor="#00F"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="If you havn't account, Please Signup"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/login_but"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>

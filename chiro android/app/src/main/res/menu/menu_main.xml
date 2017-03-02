@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/communicate"
+        android:title="@string/communications" />
+    <item
+        android:id="@+id/podcast"
+        android:title="@string/podcast" />
+    <item
+        android:id="@+id/video"
+        android:title="@string/video" />
+    <item
+        android:id="@+id/online"
+        android:title="@string/online" />
+    <item
+        android:id="@+id/facebook"
+        android:title="@string/facebook" />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout" />
+</menu>

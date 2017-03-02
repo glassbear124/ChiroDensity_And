@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "623500844981",
+    "firebase_url": "https://chiro-destiny.firebaseio.com",
+    "project_id": "chiro-destiny",
+    "storage_bucket": "chiro-destiny.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623500844981:android:fff57451e4685283",
+        "android_client_info": {
+          "package_name": "com.chirodestiny.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623500844981-o8vje3ipen56070cd1k8t4sv3so78et4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJUaNnhtLbUolK3IceawPwdxsW-r7n48g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
